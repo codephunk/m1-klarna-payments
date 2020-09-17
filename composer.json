@@ -2,11 +2,14 @@
     "name": "codephunk/m1-klarna-payments",
     "description": "Unofficial Fork of the Magento CE 1.x Klarna Payments plugin",
     "type": "magento-module",
+    "version": "4.4.5",
     "authors": [
         {
             "name": "codephunk",
             "email": "info@codephunk.de"
         }
     ],
-    "require": {}
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
 }
